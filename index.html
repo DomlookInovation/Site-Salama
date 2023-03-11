@@ -19,6 +19,8 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
@@ -46,24 +48,30 @@
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-primary"><img src="img/logo.jpg" width="40px" height="40px"/></h2>
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
+        <button type="button" class="navbar-toggler me-4" id="boutton-haut" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <i class="uil uil-list-ul fs-1"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Accueil</a>
-                <a href="about.html" class="nav-item nav-link">A propos</a>
-                <a href="courses.html" class="nav-item nav-link">Nos formations</a>
-                <a href="infrastructres.html" class="nav-item nav-link">Nos Infrastructures</a>
+                <a href="index.html" class="nav-item nav-link active d-flex"><i class="fa-solid fa-house"></i><span>Accueil</span></a>
+                <a href="courses.html" class="nav-item nav-link"><i class="fa-sharp fa-solid fa-users"></i><span>Nos Infrastructures</span></a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">BLOG</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-blog"></i><span>BLOG</span></a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="team.html" class="dropdown-item">Réalisations </a>
+                        <a href="team.html" class="dropdown-item"><i class="fa-solid fa-house-person-leave"></i>Réalisations </a>
                         <a href="testimonial.html" class="dropdown-item">Témoignages</a>
-                        <a href="articles.html" class="dropdown-item">Articles</a>
+                        <a href="404.html" class="dropdown-item">Nouvelles</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="about.html" class="nav-item nav-link d-flex align-items-center"><i class="fa-solid fa-circle-exclamation"></i><span>A propos</span></a>
+                <a href="contact.html" class="nav-item nav-link"><i class="fa-solid fa-address-book"></i><span>Contact</span></a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-globe"></i><span>Langues</span></a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="team.html" class="dropdown-item"><i class="fa-solid fa-house-person-leave"></i>Français </a>
+                        <a href="testimonial.html" class="dropdown-item">Anglais</a>
+                    </div>
+                </div>
             </div>
             <a href="" class="btn btn-prim py-4 px-lg-5 d-none d-lg-block">CONNEXION<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
@@ -75,15 +83,15 @@
     <div class="container-fluid p-0 mb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <img class="img-fluid" src="img/carousel-1.JPG" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown" > Une école un avenir.</h5>
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown" > Une école, un avenir.</h5>
                                 <h1 class="display-3 text-white animated slideInDown">Institut Technique SALAMA</h1>
                                 
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+                                <p class="fs-5 text-white mb-4 pb-2 w-75">Je m'eduque pour en eduquer d'autres</p>
                                 <a href="" class="btn btn-prim py-md-3 px-md-5 me-3 animated slideInLeft">Qui sommes-nous ?</a>
                                 <a href="inscription.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Rejoignez-nous maintenant</a>
                             </div>
@@ -98,9 +106,9 @@
                         <div class="container">
                             <div class="row justify-content-start">
                                 <div class="col-sm-10 col-lg-8">
-                                    <h5 class="text-primary text-uppercase mb-3 animated slideInDown" > Une école un avenir.</h5>
+                                    <h5 class="text-primary text-uppercase mb-3 animated slideInDown" > Une école, un avenir.</h5>
                                     <h1 class="display-3 text-white animated slideInDown">Institut Technique SALAMA</h1>
-                                    <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+                                    <p class="fs-5 text-white mb-4 pb-2 w-75">Je m'eduque pour en eduquer d'autres</p>
                                     <a href="" class="btn btn-prim py-md-3 px-md-5 me-3 animated slideInLeft">Qui sommes-nous ?</a>
                                     <a href="inscription.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Rejoignez-nous maintenant</a>
                                 </div>
@@ -108,7 +116,7 @@
                         </div>
                     </div>
                 </div>
-           
+            </div>
         </div>
     </div>
     <!-- Carousel End -->
@@ -123,7 +131,7 @@
                         <img class="img-fluid position-absolute w-100 h-100" src="img/about_img.jpg" alt="" style="object-fit: cover;">
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-6 text-justify wow fadeInUp data-wow-delay="0.3s" >
                     <h6 class="section-title bg-white text-start color-text pe-3">A propos de nous</h6>
                     <h1 class="mb-4">Bienvenue à l'Institut Technique SALAMA</h1>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
@@ -156,288 +164,297 @@
     <!-- About End -->
 
 
-    <!-- Categories Start -->
+    <!-- Options Start -->
     <div class="container-xxl py-5 category">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Nos formations</h6>
-                <h1 class="mb-5">Courses Categories</h1>
+                <h6 class="section-title bg-white text-center text-primary px-3">Nos Options</h6>
+                <h1 class="mb-5">Cinq Options Organisées</h1>
             </div>
             <div class="row g-3">
                 <div class="col-lg-7 col-md-6">
                     <div class="row g-3">
-                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/cat-1.jpg" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                    <h5 class="m-0">Web Design</h5>
-                                    <small class="text-primary">49 Courses</small>
-                                </div>
-                            </a>
-                        </div>
                         <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                            <a class="position-relative d-block overflow-hidden" href="option.html">
+                                <img class="img-fluid" src="img/ELECTRICITE.jpg" alt="">
                                 <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                    <h5 class="m-0">Graphic Design</h5>
-                                    <small class="text-primary">49 Courses</small>
+                                    <h5 class="m-0">Eléctricité</h5>
+                                    <small class="text-primary">15 Cours</small>
                                 </div>
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                             <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                                <img class="img-fluid" src="img/imprimerie.JPG" alt="">
                                 <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                    <h5 class="m-0">Video Editing</h5>
-                                    <small class="text-primary">49 Courses</small>
+                                    <h5 class="m-0">Imprimerie</h5>
+                                    <small class="text-primary">49 Cours</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/MECANIQUE GENERALE.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Mecanique Generale</h5>
+                                    <small class="text-primary">49 Cours</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/MECANIQUE AUTO.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Mecanique-Auto</h5>
+                                    <small class="text-primary">49 Cours</small>
                                 </div>
                             </a>
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
                     <a class="position-relative d-block h-100 overflow-hidden" href="">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/cat-4.jpg" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/ELECTRONIQUE.jpg" alt="" style="object-fit: cover;">
                         <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
-                            <h5 class="m-0">Online Marketing</h5>
-                            <small class="text-primary">49 Courses</small>
+                            <h5 class="m-0">Electronique</h5>
+                            <small class="text-primary">23 Cours</small>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Categories Start -->
+    <!-- Options Start -->
 
 
-    <!-- Courses Start -->
-    <div class="container-xxl py-5">
+    <!-- Formation Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Nos Formations</h6>
-                <h1 class="mb-5">nos formations populaires</h1>
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Nos formations</h6>
+                <h1 class="mb-5">7<sup>ième</sup>Année Professionnelle</h1>
             </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/course-1.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
-                            </div>
-                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
-                        </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid" src="img/7ieme-imprimerie.JPG" alt="">
+                    <h5 class="mb-0 mt-2">Imprimerie</h5>
+                    <p>Professionnelle</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/course-2.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
-                            </div>
-                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
-                        </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid" src="img/7ieme-mecanique-gen.JPG" alt="">
+                    <h5 class="mb-0 mt-2">Mecanique generale</h5>
+                    <p>Professionnelle</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/course-3.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
-                            </div>
-                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
-                        </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid" src="img/MECANIQUE AUTO.jpg" alt="">
+                    <h5 class="mb-0 mt-2">Mecanique auto</h5>
+                    <p>Professionnelle</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid" src="img/ELECTRONIQUE.jpg" alt="">
+                    <h5 class="mb-0 mt-2">Electronique</h5>
+                    <p>Professionnelle</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid" src="img/ELECTRICITE.jpg" alt="">
+                    <h5 class="mb-0 mt-2">Electricite</h5>
+                    <p>Professionnelle</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Courses End -->
+    <!-- Formation End -->
 
 
-    <!-- Team Start -->
+    <!-- Article Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
-                <h1 class="mb-5">Expert Instructors</h1>
+                <h6 class="section-title bg-white text-center text-primary px-3">Derniers articles</h6>
+                <h1 class="mb-5">Nos dernieres publications</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                            <img class="img-fluid" src="img/ELECTRICITE.jpg" alt="">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Installation electrique</h5>
+                            <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, qui facere.</small><br>
+                            <a class="btn btn-prim py-2 px-3 mt-2" href="">Voir Plus</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                            <img class="img-fluid" src="img/ELECTRONIQUE.jpg" alt="">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Installation electrique</h5>
+                            <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, qui facere.</small><br>
+                            <a class="btn btn-prim py-2 px-3 mt-2" href="">Voir Plus</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                            <img class="img-fluid" src="img/carousel-2.jpg" alt="">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Installation electrique</h5>
+                            <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, qui facere.</small><br>
+                            <a class="btn btn-prim py-2 px-3 mt-2" href="">Voir Plus</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                            <img class="img-fluid" src="img/carousel-1.JPG" alt="">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Installation electrique</h5>
+                            <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, qui facere.</small><br>
+                            <a class="btn btn-prim py-2 px-3 mt-2" href="">Voir Plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="collapse col-lg-3 col-md-6" data-wow-delay="0.1s" id="collapseExample">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/imprimerie.JPG" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Installation electrique</h5>
+                            <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, qui facere.</small><br>
+                            <a class="btn btn-prim py-2 px-3 mt-2" href="">Voir Plus</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="collapse col-lg-3 col-md-6" data-wow-delay="0.3s" id="collapseExample">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/ELECTRICITE.jpg" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Installation electrique</h5>
+                            <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, qui facere.</small><br>
+                            <a class="btn btn-prim py-2 px-3 mt-2" href="">Voir Plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse col-lg-3 col-md-6" data-wow-delay="0.5s" id="collapseExample">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/ELECTRONIQUE.jpg" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Installation electrique</h5>
+                            <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, qui facere.</small><br>
+                            <a class="btn btn-prim py-2 px-3 mt-2" href="">Voir Plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse col-lg-3 col-md-6" data-wow-delay="0.6s" id="collapseExample">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/7ieme-mecanique-gen.JPG" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Installation electrique</h5>
+                            <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, qui facere.</small><br>
+                            <a class="btn btn-prim py-2 px-3 mt-2" href="">Voir Plus</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Team End -->
+    <!-- Button afficher plus d'article -->
+    <p class="d-flex justify-content-center">
+        <a class="btn btn-prim py-3 px-5 mt-2" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          En afficher plus
+        </a>
+    </p>
+    <!-- Article End -->
 
 
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <!-- Partenaire Start -->
+    <div class="container-xxl py-3" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center">
-                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
-                <h1 class="mb-5">Our Students Say!</h1>
+                <h6 class="section-title bg-white text-center text-primary px-3">Nos partenaires</h6>
+                <h1 class="mb-5">Quelques entrepises ont aggree et nous suivent</h1>
             </div>
-            <div class="owl-carousel testimonial-carousel position-relative">
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
+            <div class="row g-2">
+                <div class="col-lg-1 col-md-1 col-2" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="img/logo partenaires/congo equipment.png" alt="">
                 </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
+            
+                <div class="col-lg-1 col-md-2 col-2" data-wow-delay="0.3s">
+                    <img class="img-fluid" src="img/logo partenaires/mulykap.png" alt="">
                 </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
+                <div class="col-lg-1 col-md-2 col-2" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="img/logo partenaires/schneider.jpeg" alt="">
                 </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
+                <div class="col-lg-1 col-md-2 col-2" data-wow-delay="0.6s">
+                    <img class="img-fluid" src="img/logo partenaires/unh.jpeg" alt="">
+                </div>
+                <div class="col-lg-1 col-md-2 col-2" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="img/logo partenaires/congo equipment.png" alt="">
+                </div>
+            
+                <div class="col-lg-1 col-md-2 col-2" data-wow-delay="0.3s">
+                    <img class="img-fluid" src="img/logo partenaires/mulykap.png" alt="">
+                </div>
+                <div class="col-lg-1 col-md-2 col-2" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="img/logo partenaires/schneider.jpeg" alt="">
+                </div>
+                <div class="col-lg-1 col-md-2 col-2" data-wow-delay="0.6s">
+                    <img class="img-fluid" src="img/logo partenaires/unh.jpeg" alt="">
+                </div>
+                <div class="col-lg-1 col-md-2 col-2" data-wow-delay="0.6s">
+                    <img class="img-fluid" src="img/logo partenaires/unh.jpeg" alt="">
+                </div>
+                <div class="col-lg-1 col-md-2 col-2" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="img/logo partenaires/congo equipment.png" alt="">
+                </div>
+            
+                <div class="col-lg-1 col-md-2 col-2" data-wow-delay="0.3s">
+                    <img class="img-fluid" src="img/logo partenaires/mulykap.png" alt="">
+                </div>
+                <div class="col-lg-1 col-md-2 col-2" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="img/logo partenaires/schneider.jpeg" alt="">
+                </div>
+                <div class="col-lg-1 col-md-2 col-2" data-wow-delay="0.6s">
+                    <img class="img-fluid" src="img/logo partenaires/unh.jpeg" alt="">
                 </div>
             </div>
         </div>
     </div>
-    <!-- Testimonial End -->
+    <!-- Partenaire End -->
         
 
     <!-- Footer Start -->
@@ -453,11 +470,11 @@
                 <div class="col-lg-4 col-md-4">
                     <h4 class="text-white mb-3">QUELQUES LIENS UTILES</h4>
                     <a class="btn btn-link text-center" href="about.html">Qui sommes-nous ?</a>
-                    <a class="btn btn-link text-center" href="articles.html">Nos derniers articles</a>
+                    <a class="btn btn-link text-center" href="">Nos derniers articles</a>
                     <a class="btn btn-link text-center" href="inscription.html">Rejoignez-nous maintenant</a>
                 </div>
                 <div class="col-lg-4 col-md-4">
-                    <h4 class="text-white mb-3">AUTRES LIENS</h4>
+                    <h4 class="text-white mb-0">AUTRES LIENS</h4>
                     <div class="d-flex justify-content-center pt-3">
                         <a class="btn btn-outline-light btn-social text-center" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social text-center" href=""><i class="fab fa-facebook-f"></i></a>
